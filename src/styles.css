@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/*Cards*/
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1 !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2 !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 2 !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 4 !important;
+    }
+}
+
+
+/*Body*/
+
+.main-container {
+    margin-top: 20px;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+
+/*Animaciones*/
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
