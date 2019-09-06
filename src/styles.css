@@ -68,3 +68,11 @@ body {
 .fadeIn {
     animation-name: fadeIn;
 }
+
+
+/* imgagenes logos dc y marvel */
+
+.img-logo {
+    margin-top: 20px;
+    width: 200px;
+}
